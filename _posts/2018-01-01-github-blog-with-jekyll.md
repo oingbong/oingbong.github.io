@@ -6,7 +6,7 @@ title: github blog with jekyll
 ### 블로그 기본 설정 및 깃허브와 연동하기
 
 ** 1.지킬로 설치하기 **
-	`[sudo] gem install jekyll`
+`[sudo] gem install jekyll`
 
 ++ * RubyGems 버전 에러나는 경우 ++
 	`[sudo] gem update --system`
