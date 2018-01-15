@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Git 사용방법
+tags:
+- Git
 ---
 
 

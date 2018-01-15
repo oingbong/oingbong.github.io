@@ -1,6 +1,8 @@
 ---
 layout: post
 title: iOS11 녹화기능 감지하기
+tags:
+- Swift
 ---
 
 ### iOS11 녹화기능 감지
