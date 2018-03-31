@@ -1,12 +1,12 @@
 ---
 layout: post
-title: @RefreshScope 적용안되는 경우
+title: RefreshScope 적용안되는 경우
 tags:
 - SpringCloud
 - RefreshScope
 ---
 
-# @RefreshScope 적용안되는 경우
+# RefreshScope 적용안되는 경우
 
 #### Spring Cloud 튜토리얼에서 @RefreshScope 를 사용하여 서버를 재시작 할 필요없이 설정값을 변경하기 위해 Postman을 이용해 Refresh 를 해주는 작업이 필요한데 기존과 다른 부분이 있습니다.
 
