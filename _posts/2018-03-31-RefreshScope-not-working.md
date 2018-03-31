@@ -3,7 +3,6 @@ layout: post
 title: RefreshScope 적용안되는 경우
 tags:
 - SpringCloud
-- RefreshScope
 ---
 
 # RefreshScope 적용안되는 경우
