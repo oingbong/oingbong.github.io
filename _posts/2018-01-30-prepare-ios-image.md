@@ -2,7 +2,7 @@
 layout: post
 title: iOS 배포 이미지 준비
 tags:
-- swift
+- Swift
 ---
 
 # iOS 배포 이미지 준비

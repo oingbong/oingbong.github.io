@@ -4,8 +4,8 @@ title: 인증서 p12 -> pem 변환 방법 (바이두 - 푸시서비스에 사용
 tags:
 - Certificate
 - Baidu
-- pem
-- p12
+- Pem
+- P12
 ---
 
 ## 인증서 p12 -> pem 변환 방법 (바이두 - 푸시서비스에 사용)
