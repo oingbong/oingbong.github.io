@@ -19,6 +19,7 @@ tags:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!--
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
@@ -34,6 +35,7 @@ tags:
     {% endif %}
     {% endif %}
     {% endfor %}
+    -->
 </urlset>
 ```
 ### 구글 웹마스터 도구(Search Console)에 sitemap.xml 제출
