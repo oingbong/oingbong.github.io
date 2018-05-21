@@ -15,8 +15,8 @@ tags:
 ### sitemap.xml 파일 생성 및 _config.xml 수정
 1. _config.xml 파일의 url 부분에 블로그 url 입력 및 저장
 2.sitemap.xml 에 아래 내용 입력
----
----
+
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
@@ -35,7 +35,7 @@ tags:
     {% endif %}
     {% endfor %}
 </urlset>
-
+```
 ### 구글 웹마스터 도구(Search Console)에 sitemap.xml 제출
 1.구글 웹 마스터 도구 접속
 2.왼쪽 메뉴 - 크롤링 - Sitemaps 선택
