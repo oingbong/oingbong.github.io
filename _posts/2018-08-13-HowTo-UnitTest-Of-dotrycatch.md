@@ -16,7 +16,7 @@ tags:
 
 #### error enum
 
-> Error Protocol 을 상속받아 에러 케이스를 정의합니다.
+* Error Protocol 을 상속받아 에러 케이스를 정의합니다.
 
 ```
     enum JsonError : Error {
@@ -27,8 +27,8 @@ tags:
 
 #### try 코드
 
-> 일반 함수와 동일하지만 -> Bool or -> Int 같은 형식이 아닌 throws 만 정의해줍니다.
-> 또한, guard를 이용하여 위에서 정의한 enum 케이스 중 하나를 throw 에 담아줍니다.
+* 일반 함수와 동일하지만 -> Bool or -> Int 같은 형식이 아닌 throws 만 정의해줍니다.
+* 또한, guard를 이용하여 위에서 정의한 enum 케이스 중 하나를 throw 에 담아줍니다.
 
 ```
     public static func isValidate(to inputValue:String) throws {
@@ -48,9 +48,9 @@ tags:
 
 #### do-try-catch 코드
 
-> do-try-catch 구문을 이용해 위에서 정의한 func를 try 에 정의
-> 해당 코드 중에 에러가 발생할 경우를 catch 에 정의
-> 마지막 catch 에는 default 로 enum 코드에 정의하지 않은 에러가 발생할 경우를 대비해 정의
+* do-try-catch 구문을 이용해 위에서 정의한 func를 try 에 정의
+* 해당 코드 중에 에러가 발생할 경우를 catch 에 정의
+* 마지막 catch 에는 default 로 enum 코드에 정의하지 않은 에러가 발생할 경우를 대비해 정의
 
 ```
     func someFunc() -> Bool {
@@ -70,7 +70,7 @@ tags:
 
 #### 테스트코드 : 정상 확인 코드
 
-> 정상적인 결과를 원하는 코드의 경우에는 `XCTAssertNoThrow` 함수를 이용해 테스트를 실행합니다.
+* 정상적인 결과를 원하는 코드의 경우에는 `XCTAssertNoThrow` 함수를 이용해 테스트를 실행합니다.
 
 ```
     func testPass(){
@@ -81,9 +81,9 @@ tags:
 
 #### 테스트코드 : 오류 확인 코드
 
-> 에러가 나는 경우의 결과를 원하는 경우에는 `XCTAssertThrowsError` & `XCTAssertEqual` 함수 사용
-> XCTAssertThrowsError : 실행 할 코드와 값을 입력합니다.
-> XCTAssertEqual : enum 에서 정의한 에러와 입력한 코드와 값이 동일한 에러인지 확인합니다.
+* 에러가 나는 경우의 결과를 원하는 경우에는 `XCTAssertThrowsError` & `XCTAssertEqual` 함수 사용
+    * XCTAssertThrowsError : 실행 할 코드와 값을 입력합니다.
+    * XCTAssertEqual : enum 에서 정의한 에러와 입력한 코드와 값이 동일한 에러인지 확인합니다.
 
 ```
     func testFail(){
