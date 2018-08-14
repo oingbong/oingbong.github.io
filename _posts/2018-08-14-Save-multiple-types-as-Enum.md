@@ -74,3 +74,6 @@ struct JsonArray {
     }
 }
 ```
+
+#### 참고
+[Enumerations - Apple](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
