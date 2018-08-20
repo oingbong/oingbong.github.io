@@ -34,6 +34,7 @@ __1. git commit 필요__
 > Config-server 의 config-client.properties 값 변경 후 commit 을 하지 않으면 값 적용이 안되며 그 이전에 postman 으로 Send 할 때 리턴값이 [] << 이렇게 나옵니다.
 
 > 제대로 된 리턴값은 아래와 같습니다.
+
 ```
 [
 "config.client.version",
